@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                 style: OutlinedButton.styleFrom(
                   side: BorderSide(color: Colors.black),
                 ),
-                child: Text('Sign Up', style: TextStyle(color: Colors.grey)),
+                child: Text('Sign Up', style: TextStyle(color: Colors.black)),
               ),
             ],
           ),
