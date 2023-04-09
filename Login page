@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Login Page',
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xfff6c7fe),
         appBar: AppBar(
           title: Text('Login Page'),
         ),
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
               OutlinedButton(
                 onPressed: () {},
                 style: OutlinedButton.styleFrom(
-                  side: BorderSide(color: Colors.grey),
+                  side: BorderSide(color: Colors.black),
                 ),
                 child: Text('Sign Up', style: TextStyle(color: Colors.grey)),
               ),
